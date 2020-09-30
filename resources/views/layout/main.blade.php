@@ -13,16 +13,23 @@
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <a class="navbar-brand" href="/">
+          <img src="{{asset('storage/image/logoekspresa.png')}}" width="15%" height="15%" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <!-- <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="/aboutus">About us</a>
             <a class="nav-link" href="#">Product</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            <a class="nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/aboutus') }}">About us</a>
+            <a class="nav-link" href="#">Product</a>
+            
             </div>
         </div>  
     </nav>
