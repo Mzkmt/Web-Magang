@@ -185,12 +185,17 @@
   }
   .navfix:hover {
     background-color: white   !important; 
-    color: black !important ; 
+    color: blue !important ; 
   }
 
 
-  .navfix:hover .navbar-nav > ul > li > a, .navfix .navbar-nav > ul >li > a {
+  .navfix .navbar-nav > ul >li > a {
     color: black !important; /*Sets the text hover color on navbar*/
+    transition: 0.1s ease;
+  }
+
+  .navfix .navbar-nav > ul > li > a:hover{
+    color: blue !important; /*Sets the text hover color on navbar*/
     transition: 0.1s ease;
   }
 
