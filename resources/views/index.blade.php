@@ -4,6 +4,8 @@
 
 @section('container')
 <link href="/css/main.css" rel="stylesheet">
+
+
 <!-- <video src="/ekspresa.mp4" autoplay="true" loop="true"> -->
 <!-- <img src="{{asset('storage/headline2.jpg')}}"> -->
 
@@ -36,19 +38,30 @@
       <p>Pesan sekarang juga!</p>
       <a class="btn">Go to shop</a>
     </div>
-  </header>
+</header>
 
-  <section class="section section-a">
-    <div class="container">
-      <h2>Section A</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-    </div>
-  </section>
 
-  <section class="section section-b">
+<div class="imagehome" id="imagehome">
+  <img id="image" src="{{asset('storage/image/headline1.jpg')}}">      
+  <div class="text-block">
+    <h4>Print</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+  </div>
+</div>
+<div class="imagehome" id="imagehome">
+  <img id="image" src="{{asset('storage/image/headline2.jpg')}}">      
+  <div class="text-block2">
+    <h4>Service</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+  </div>
+</div>
+  
+  
+
+  <!-- <section class="section section-b">
     <div class="container">
       <h2>Section B</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
     </div>
-  </section>
+  </section> -->
 @endsection

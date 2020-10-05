@@ -22,46 +22,32 @@
       
     <title>@yield('title')</title>
   </head>
-  <body>
+  <body class="sub">
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navfix ">
     <div class="container">
     <a class="navbar-brand" href="{{ url('/') }}">
-          <img  src="{{asset('storage/image/logo.png')}}" width="" height="75px" alt="">
+          <img src="{{asset('storage/image/logo.png')}}" width="" height="75px" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-            <!-- <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="/aboutus">About us</a>
-            <a class="nav-link" href="#">Product</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-            <!-- <a class="nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="{{ url('/aboutus') }}">About us</a>
-            <a class="nav-link" href="#">Product</a> -->
-            <ul class="navbar-nav">
-              <!-- <li class="nav-item">
-                <a class="nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="{{ url('/aboutus') }}">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">How to Buy</a>
-              </li>
-            </ul>
-            
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/aboutus') }}">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">How to Buy</a>
+                </li>
+                </ul>
             </div>
-        </div>  
-
-    </div>
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        
+        </div>
+    </div> 
     </nav>
 
     @yield('container')

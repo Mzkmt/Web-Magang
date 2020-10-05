@@ -19,6 +19,10 @@
     color:#333;
     overflow-x:hidden;
   }
+
+  .sub{
+    padding-top: 100px;
+  }
   
   .v-header{
     height:100vh;
@@ -29,6 +33,7 @@
   
   .container{
     max-width:960px;
+    /* width: 100%; */
     padding-left:1rem;
     padding-right:1rem;
     margin:auto;
@@ -68,7 +73,7 @@
   }
   
   .header-content h1{
-    font-size:50px;
+    font-size:80px;
     margin-bottom:0;
   }
   
@@ -105,6 +110,11 @@
       /* z-index: 3; */
       /* background-color: transparent; */
 
+      
+  }
+  .navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
   }
 
   .navbar-dark {
@@ -126,6 +136,20 @@
   .navbar-dark:hover .navbar-nav > ul > li > a, .navbar-dark .navbar-nav > ul >li > a {
     color: black !important; /*Sets the text hover color on navbar*/
     transition: 0.1s ease;
+  }
+
+  .headline {
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+
+  }
+
+  #image
+  {
+    width: 100%;
   }
 
  
@@ -153,6 +177,60 @@
   .navbar-dark .navbar-nav > ul > li > a.scrolled {
     color: black !important ; /*Change active text color here*/
     transition: 0.1s ease;
+  }
+
+  .navfix {
+    background-color: white   !important; 
+    color: black !important ; 
+  }
+  .navfix:hover {
+    background-color: white   !important; 
+    color: black !important ; 
+  }
+
+
+  .navfix:hover .navbar-nav > ul > li > a, .navfix .navbar-nav > ul >li > a {
+    color: black !important; /*Sets the text hover color on navbar*/
+    transition: 0.1s ease;
+  }
+
+  .imagehome{
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    
+    top: 30%;
+    left: 10%;
+    max-width: 30%;
+    background-color: darkblue;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .text-block2 {
+    position: absolute;
+    
+    top: 30%;
+    right: 10%;
+    max-width: 30%;
+    background-color: darkblue;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer {
+    border-top: 1px gray;
+  }
+  .footer-div{
+    margin-bottom: 10px;
   }
 
   
