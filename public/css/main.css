@@ -63,7 +63,7 @@
   .header-content{
     z-index:2;
     margin-left: auto;
-margin-right: auto;
+    margin-right: auto;
 
   }
   
@@ -102,6 +102,60 @@ margin-right: auto;
     }
   }
   nav{
-      z-index: 3;
+      /* z-index: 3; */
+      /* background-color: transparent; */
 
   }
+
+  .navbar-dark {
+    background-color: transparent !important; 
+    color: #FFFFFF !important;
+    transition: 0.2s ease;
+  }
+
+  .navbar-dark.scrolled {
+    background-color: #FFFFFF !important;
+    /* color: #000000 !important; */
+  }
+  .navbar-dark:hover {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    transition: 0.2s ease;
+  }
+
+  .navbar-dark:hover .navbar-nav > ul > li > a, .navbar-dark .navbar-nav > ul >li > a {
+    color: black !important; /*Sets the text hover color on navbar*/
+    transition: 0.1s ease;
+  }
+
+ 
+
+  /* .nav-link {
+    color: #000000 !important;
+  }
+  .nav-link.scrolled {
+    color: #000000 !important;
+  } */
+  .navbar-dark .navbar-nav > ul > li > a:hover, .navbar-dark .navbar-nav > ul >li > a:focus {
+    color: blue !important; /*Sets the text hover color on navbar*/
+    transition: 0.1s ease;
+  }
+
+  .navbar-dark .navbar-nav > ul > li > a.scrolled:hover, .navbar-dark .navbar-nav > ul >li > a.scrolled:focus {
+    color: blue !important; /*Sets the text hover color on navbar*/
+    transition: 0.1s ease;
+  }
+
+  .navbar-dark .navbar-nav > ul > li > a {
+    color: white !important ; /*Change active text color here*/
+    transition: 0.1s ease;
+  }
+  .navbar-dark .navbar-nav > ul > li > a.scrolled {
+    color: black !important ; /*Change active text color here*/
+    transition: 0.1s ease;
+  }
+
+/* 
+  .navbar-nav.scrolled a  {
+    color: blue !important;
+} */
