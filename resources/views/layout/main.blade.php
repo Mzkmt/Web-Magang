@@ -46,6 +46,15 @@
     </nav>
 
     @yield('container')
+
+    
+    <footer class="page-footer font-small cyan darken-3">
+      <div class="footer">
+        <p>Footer</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
     
 
     <!-- Optional JavaScript -->
