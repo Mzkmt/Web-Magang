@@ -80,10 +80,13 @@
         <div class="col-md-6 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold black-text">Ekspresa</h5>
-          <p class="black-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
-            repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
-            harum esse fugiat. Itaque, culpa?</p>
+          <!-- <img  src="{{asset('storage/image/logo.png')}}" width="" height="75px" alt=""> -->
+          <h5 class="text-uppercase font-weight-bold black-text">Quick Links</h5>
+          <p class="black-text">Home</p>
+          <p class="black-text">About Us</p>
+          <p class="black-text">Product</p>
+          <p class="black-text">How to Buy</p>
+
 
         </div>
         <!-- Grid column -->
@@ -94,16 +97,18 @@
         <div class="col-md-6 mb-md-0 mb-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold black-text">Alamat</h5>
-          <p class="black-text">Lorem ipsum, dolor sit amet palmerah consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
-            commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
-            excepturi hic.</p>
+          <h5 class="text-uppercase font-weight-bold black-text">Ekspresa</h5>
+          <p class="black-text">Jl. Palmerah Selatan 22--28 Jakarta</p>
+          <p class="black-text">Tlp. +62 21 548 3008, +62 21 548 0888</p>
+          
+          <p class="black-text">Fax. +62 21 532 3662</p>
+          <p class="black-text">Email. marketing@gramediaprinting.com</p>
 
         </div>
         <!-- Grid column -->
 
       </div>
-      <div class="row pb-3">
+      <div class="row pb-3 text-black">
 
           <!-- Grid column -->
           <div class="col-md-12">
