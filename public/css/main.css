@@ -32,13 +32,16 @@
   }
   
   .container{
-    max-width:960px;
+    /* max-width:960px; */
+    max-width: 1140px;
     /* width: 100%; */
     padding-left:1rem;
     padding-right:1rem;
     margin:auto;
     text-align:center;
   }
+
+ 
   
   .fullscreen-video-wrap{
     position:absolute;
@@ -165,7 +168,7 @@
     transition: 0.1s ease;
   }
 
-  .navbar-light .navbar-nav > ul > li > a.scrolled:hover, .navbar-light .navbar-nav > ul >li > a.scrolled:focus {
+  .navbar-light.scrolled .navbar-nav > ul > li > a:hover, .navbar-light.scrolled .navbar-nav > ul >li > a:focus {
     color: blue !important; /*Sets the text hover color on navbar*/
     transition: 0.1s ease;
   }
