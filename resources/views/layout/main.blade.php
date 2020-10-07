@@ -24,7 +24,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
     <div class="container">
     <a class="navbar-brand" href="{{ url('/') }}">
           <img  src="{{asset('storage/image/logo.png')}}" width="" height="75px" alt="">
@@ -49,11 +49,12 @@
                 <a class="nav-link" href="{{ url('/aboutus') }}">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="{{ url('/product') }}">Product</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">How to Buy</a>
               </li>
+              
             </ul>
             
             </div>
@@ -81,34 +82,35 @@
 
           <!-- Content -->
           <!-- <img  src="{{asset('storage/image/logo.png')}}" width="" height="75px" alt=""> -->
-          <h5 class="text-uppercase font-weight-bold black-text">Quick Links</h5>
-          <p class="black-text">Home</p>
-          <p class="black-text">About Us</p>
-          <p class="black-text">Product</p>
-          <p class="black-text">How to Buy</p>
+          <h5 class="text-uppercase black-text">Quick Links</h5>
+          <p class="p-footer">Home</p>
+          <p class="p-footer">About Us</p>
+          <p class="p-footer">Product</p>
+          <p class="p-footer">How to Buy</p>
 
 
         </div>
         <!-- Grid column -->
 
-        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
 
         <!-- Grid column -->
         <div class="col-md-6 mb-md-0 mb-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold black-text">Ekspresa</h5>
-          <p class="black-text">Jl. Palmerah Selatan 22--28 Jakarta</p>
-          <p class="black-text">Tlp. +62 21 548 3008, +62 21 548 0888</p>
+          <!-- <h5 class="text-uppercase font-weight-bold black-text">Ekspresa</h5> -->
+          <h5 class="text-uppercase black-text">Ekspresa</h5>
+          <p class="p-footer">Jl. Palmerah Selatan 22--28 Jakarta</p>
+          <p class="p-footer">Tlp. +62 21 548 3008, +62 21 548 0888</p>
           
-          <p class="black-text">Fax. +62 21 532 3662</p>
-          <p class="black-text">Email. marketing@gramediaprinting.com</p>
+          <p class="p-footer">Fax. +62 21 532 3662</p>
+          <p class="p-footer">Email. marketing@gramediaprinting.com</p>
 
         </div>
         <!-- Grid column -->
 
       </div>
-      <div class="row pb-3 text-black">
+      <div class="div-footer">
 
           <!-- Grid column -->
           <div class="col-md-12">

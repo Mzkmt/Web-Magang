@@ -39,7 +39,7 @@
                     <a class="nav-link" href="{{ url('/aboutus') }}">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="{{ url('/product') }}">Product</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">How to Buy</a>

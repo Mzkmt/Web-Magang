@@ -117,23 +117,23 @@
     margin-right:20px;
   }
 
-  .navbar-dark {
+  .navbar-light {
     background-color: transparent !important; 
     color: #FFFFFF !important;
     transition: 0.2s ease;
   }
 
-  .navbar-dark.scrolled {
+  .navbar-light.scrolled {
     background-color: #FFFFFF !important;
     /* color: #000000 !important; */
   }
-  .navbar-dark:hover {
+  .navbar-light:hover {
     background-color: #FFFFFF !important;
     color: #000000 !important;
     transition: 0.2s ease;
   }
 
-  .navbar-dark:hover .navbar-nav > ul > li > a, .navbar-dark .navbar-nav > ul >li > a {
+  .navbar-light:hover .navbar-nav > ul > li > a, .navbar-light .navbar-nav > ul >li > a {
     color: black !important; /*Sets the text hover color on navbar*/
     transition: 0.1s ease;
   }
@@ -160,21 +160,21 @@
   .nav-link.scrolled {
     color: #000000 !important;
   } */
-  .navbar-dark .navbar-nav > ul > li > a:hover, .navbar-dark .navbar-nav > ul >li > a:focus {
+  .navbar-light .navbar-nav > ul > li > a:hover, .navbar-light .navbar-nav > ul >li > a:focus {
     color: blue !important; /*Sets the text hover color on navbar*/
     transition: 0.1s ease;
   }
 
-  .navbar-dark .navbar-nav > ul > li > a.scrolled:hover, .navbar-dark .navbar-nav > ul >li > a.scrolled:focus {
+  .navbar-light .navbar-nav > ul > li > a.scrolled:hover, .navbar-light .navbar-nav > ul >li > a.scrolled:focus {
     color: blue !important; /*Sets the text hover color on navbar*/
     transition: 0.1s ease;
   }
 
-  .navbar-dark .navbar-nav > ul > li > a {
+  .navbar-light .navbar-nav > ul > li > a {
     color: white !important ; /*Change active text color here*/
     transition: 0.1s ease;
   }
-  .navbar-dark .navbar-nav > ul > li > a.scrolled {
+  .navbar-light.scrolled .navbar-nav > ul > li > a{
     color: black !important ; /*Change active text color here*/
     transition: 0.1s ease;
   }
@@ -231,11 +231,37 @@
     padding-bottom: 30px;
   }
 
+  .text-block-transparent {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 auto;
+    /* max-width: 30%; */
+    background-color: transparent;
+    color: white;
+    /* padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px; */
+  }
+
   .footer {
-    border-top: 1px gray;
+    border-top: 2px gray;
+    
   }
   .footer-div{
     margin-bottom: 10px;
+  }
+
+  .p-footer {
+    margin: 2px;
+  }
+
+  .div-footer {
+    margin: 12px;
   }
 
   
