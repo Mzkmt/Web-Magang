@@ -22,9 +22,9 @@
       
     <title>@yield('title')</title>
   </head>
-  <body class="sub">
+  <body class="sub" >
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navfix ">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navfix ">
     <div class="container">
     <a class="navbar-brand" href="{{ url('/') }}">
           <img src="{{asset('storage/image/logo.png')}}" width="" height="75px" alt="">

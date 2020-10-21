@@ -36,23 +36,23 @@
     <div class="header-content text-md-center">
       <h1>Ekspresa</h1>
       <p>Pesan sekarang juga!</p>
-      <a class="btn">Go to shop</a>
+      <a class="btn" target="_blank" href="//www.ekspresa.co.id">Go to shop</a>
     </div>
 </header>
 
 
 <div class="imagehome" id="imagehome">
   <img id="image" src="{{asset('storage/image/headline1.jpg')}}">      
-  <div class="text-block">
+  <div class="text-block d-none d-md-block">
     <h4>Print</h4>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus.</p>
   </div>
 </div>
 <div class="imagehome" id="imagehome">
   <img id="image" src="{{asset('storage/image/headline2.jpg')}}">      
-  <div class="text-block2">
+  <div class="text-block2 d-none d-md-block">
     <h4>Service</h4>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus.</p>
   </div>
 </div>
   
