@@ -27,7 +27,7 @@
 </div> -->
 
 
-<header class="v-header container">
+<!-- <header class="v-header container">
     <div class="fullscreen-video-wrap">
         <video autoplay muted loop src="{{asset('storage/video/video.mp4')}}" id="homeVideo">
         </video>
@@ -38,11 +38,27 @@
       <p>Pesan sekarang juga!</p>
       <a class="btn" target="_blank" href="//www.ekspresa.co.id">Go to shop</a>
     </div>
+</header> -->
+
+<header>
+  <div class="overlay"></div>
+  <video src="{{asset('storage/video/video.mp4')}}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <!-- <video autoplay muted loop  id="homeVideo"> -->
+    <!-- <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Ekspresa</h1>
+        <p class="lead mb-0">Pesan sekarang juga!</p>
+        <a class="btn" target="_blank" href="//www.ekspresa.co.id">Go to shop</a>
+      </div>
+    </div>
+  </div>
 </header>
 
-
 <div class="imagehome" id="imagehome">
-  <img id="image" src="{{asset('storage/image/headline1.jpg')}}">      
+  <img id="image" class="img-fluid" src="{{asset('storage/image/headline1.jpg')}}">      
   <div class="text-block d-none d-md-block">
     <h4>Print</h4>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus.</p>

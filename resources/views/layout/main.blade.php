@@ -55,7 +55,7 @@
                 <a class="nav-link" href="{{ url('/product') }}">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">How to Buy</a>
+                <a class="nav-link" href="{{ url('/howtobuy') }}">How to Buy</a>
               </li>
               
             </ul>
@@ -89,7 +89,7 @@
                             |
                             <a class="text-black" href="{{ url('/product') }}">Product</a>
                             |
-                            <a class="text-black" href="#">How to Buy</a>
+                            <a class="text-black" href="{{ url('/howtobuy') }}">How to Buy</a>
                         </p>
                         <p class="text-dark py-4 mb-4">&copy;2020 Ekspresa</p>
                     </div>

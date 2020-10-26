@@ -22,3 +22,7 @@ Route::get('/aboutus', function () {
 Route::get('/product', function () {
     return view('product');
 });
+
+Route::get('/howtobuy', function () {
+    return view('howtobuy');
+});
