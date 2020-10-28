@@ -49,13 +49,13 @@
                 <a class="nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('/aboutus') }}">About us</a>
+                <a class="nav-link text-center" href="{{ url('/aboutus') }}">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('/product') }}">Product</a>
+                <a class="nav-link text-center" href="{{ url('/product') }}">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('/howtobuy') }}">How to Buy</a>
+                <a class="nav-link text-center" href="{{ url('/howtobuy') }}">How to Buy</a>
               </li>
               
             </ul>

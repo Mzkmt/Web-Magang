@@ -22,23 +22,23 @@
 
     <div class="row" style="margin-top: 40px; margin-bottom:40px;">
         <div class="col-lg-4 col-md-6 col-sm-12" style="text-align:center;" href="{{ url('/aboutus') }}" >
-            <img class="img-fluid" src="{{asset('storage/image/product-resize-perfect1.jpg')}}"width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
-            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-perfect2.jpg')}}"width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid" src="{{asset('storage/image/product-resize-perfect1.jpg')}}"width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-perfect2.jpg')}}"width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
             <p style="margin-top:10px;"> Jilid Lem </p> <br>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="text-align:center;" href="{{ url('/aboutus') }}" >
-            <img class="img-fluid" src="{{asset('storage/image/product-resize-spiral1.jpg')}}"width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
-            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-spiral2.jpg')}}"width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid" src="{{asset('storage/image/product-resize-spiral1.jpg')}}"width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-spiral2.jpg')}}"width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
             <p style="margin-top:10px;"> Jilid Spiral </p> <br>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="text-align:center;" href="{{ url('/aboutus') }}" >
-            <img class="img-fluid" src="{{asset('storage/image/product-resize-kawat1.jpg')}}"width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
-            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-kawat2.jpg')}}"width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid" src="{{asset('storage/image/product-resize-kawat1.jpg')}}"width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-kawat2.jpg')}}"width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
             <p style="margin-top:10px;"> Jilid Kawat </p> <br>
         </div> 
         <div class="col-lg-4 col-md-6 col-sm-12" style="text-align:center;" href="{{ url('/aboutus') }}" >
-            <img class="img-fluid" src="{{asset('storage/image/product-resize-lembenang1.jpg')}}"width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
-            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-lembenang2.jpg')}}" width="300px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid" src="{{asset('storage/image/product-resize-lembenang1.jpg')}}"width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
+            <img class="img-fluid image-hover" src="{{asset('storage/image/product-resize-lembenang2.jpg')}}" width="275px" height="" alt="" style="margin-left:auto; margin-right:auto;">
             <p style="margin-top:10px;"> Jilid Lem Benang </p> <br>
         </div>
     </div>

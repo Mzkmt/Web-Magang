@@ -42,7 +42,7 @@
                     <a class="nav-link" href="{{ url('/product') }}">Product</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">How to Buy</a>
+                    <a class="nav-link" href="{{ url('/howtobuy') }}">How to Buy</a>
                 </li>
                 </ul>
             </div>

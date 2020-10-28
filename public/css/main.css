@@ -363,6 +363,13 @@
     .text-block2 {
       position: relative;
     }
+
+
+
+
+    .img-fluid{
+      width: 200px;
+    }
   }
 
 
