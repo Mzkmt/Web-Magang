@@ -6,7 +6,7 @@
 <link href="/css/main.css" rel="stylesheet">
 
 <div class="imagehome" id="imagehome">
-    <img id="image" src="{{asset('storage/image/headline4-resize.jpg')}} " style="min-height: 256px; object-fit:cover; object-position: left ;">      
+    <img id="image" src="{{asset('storage/image/headline4-resize.jpg')}} " style="min-height: 150px; object-fit:cover; object-position: left ;">      
     <div class="text-block-transparent">
         <h1> Product </h1>
         
