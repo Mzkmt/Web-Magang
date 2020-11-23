@@ -74,7 +74,7 @@
   
     <footer  style="background-color: #ffffff">
         <div class="container">
-            <div class="row ">
+            <div class="row " style="text-align:center;">
                 <div class="col-md-6 text-center text-md-left ">
                     
                     <div class="py-0">
@@ -91,7 +91,7 @@
                             |
                             <a class="text-black" href="{{ url('/howtobuy') }}">How to Buy</a>
                         </p>
-                        <p class="text-dark py-4 mb-4">&copy;2020 Ekspresa</p>
+                        
                     </div>
                 </div>
                 
@@ -116,6 +116,8 @@
                     </div>  
                 </div>
                 
+                
+                
                 <!-- <div class="col-md-4 text-black my-4 text-center text-md-left ">
                     <span class=" font-weight-bold ">About the Company</span>
 					            <p class="text-warning my-2" >We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
@@ -127,6 +129,9 @@
                     </div>
                 </div> -->
             </div>  
+            <div class="text-center"> 
+              <p class="text-dark py-4 mb-4 text-center" style=" margin-bottom: 0px; ">&copy;2020 Ekspresa</p>
+            </div>
         </div>
      </footer>
      <!-- end of footer -->

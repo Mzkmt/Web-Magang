@@ -61,7 +61,7 @@
   <img id="image" class="img-fluid img-fluid1"  src="{{asset('storage/image/headline1.jpg')}}">      
   <div class="text-block ">
     <h4>Print</h4>
-    <p>Hasil print kualitas tinggi dengan teknologi canggih</p>
+    <p>Hasil print dari Ekspresa memiliki kualitas tinggi dengan menggunakan teknologi canggih</p>
   </div>
 </div>
 <div class="imagehome" id="imagehome">
@@ -69,7 +69,7 @@
   <!-- <div class="text-block2 d-none d-md-block"> -->
   <div class="text-block2">
     <h4>Service</h4>
-    <p>Menyediakan layanan mulai dari awal design, cetak, sampai distribusi</p>
+    <p>Ekspresa selalu menyediakan layanan mulai dari awal design, cetak, sampai distribusi</p>
   </div>
 </div>
   

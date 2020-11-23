@@ -55,94 +55,69 @@
     
     
 
-<footer class="page-footer font-small white pt-4">
-  <div class="container">
-    <div class="container-fluid text-center text-md-left">
+    <footer  style="background-color: #ffffff">
+        <div class="container">
+            <div class="row " style="text-align:center;">
+                <div class="col-md-6 text-center text-md-left ">
+                    
+                    <div class="py-0">
+                        <!-- <h3 class="my-4 text-black">About<span class="mx-2 font-italic text-warning ">Eduonix</span></h3> -->
+                        <div style="margin: 20px;">
+                          <img src="{{asset('storage/image/logo.png')}}" width="" height="75px" alt="" >
+                        </div>  
+                        <p class="footer-links font-weight-bold">
+                            <a class="text-black" href="{{ url('/') }}">Home</a>
+                            |
+                            <a class="text-black" href="{{ url('/aboutus') }}">About Us</a>
+                            |
+                            <a class="text-black" href="{{ url('/product') }}">Product</a>
+                            |
+                            <a class="text-black" href="{{ url('/howtobuy') }}">How to Buy</a>
+                        </p>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-md-6 text-black text-center text-md-left ">
+                    <div class="py-2 my-4">
+                        <div>
+                            <p class="text-black"> <i class="fa fa-map-marker mx-2 "></i>
+                              
+                              Jl. Palmerah Selatan 22-28 Jakarta<br>
+                              <!-- Tlp. +62 21 548 3008, +62 21 548 0888<br> -->
+                              <!-- Fax. +62 21 532 3662<br> -->
+                              <!-- Email. marketing@gramediaprinting.com</p> -->
+                        </div>
 
-<!-- Grid row -->
-      <div class="row">
-
-  <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-
-          <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold black-text">Ekspresa</h5>
-          <p class="black-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
-            repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
-            harum esse fugiat. Itaque, culpa?</p>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-6 mb-md-0 mb-3">
-
-          <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold black-text">Alamat</h5>
-          <p class="black-text">Lorem ipsum, dolor sit amet palmerah consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
-            commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
-            excepturi hic.</p>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <div class="row pb-3">
-
-          <!-- Grid column -->
-          <div class="col-md-12">
-
-            <div class="mb-2 text-center">
-
-              <!-- Facebook -->
-              <a class="fb-ic">
-                <i class="fab fa-facebook-f fa-lg indigo-text mr-4"> </i>
-              </a>
-              <!-- Twitter -->
-              <a class="tw-ic">
-                <i class="fab fa-twitter fa-lg light-blue-text mr-4"> </i>
-              </a>
-              <!-- Google +-->
-              <!-- <a class="gplus-ic">
-                <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
-              </a> -->
-              <!--Linkedin -->
-              <!-- <a class="li-ic">
-                <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
-              </a> -->
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fab fa-instagram fa-lg pink-text mr-4"> </i>
-              </a>
-              <!--Pinterest-->
-              <!-- <a class="pin-ic">
-                <i class="fab fa-pinterest fa-lg white-text"> </i>
-              </a> -->
-
+                        <div> 
+                            <p><i class="fa fa-phone  mx-2 "></i> +62 21 548 3008, +62 21 548 0888</p>
+                            <p><i class="fa fa-fax mx-2 "></i> +62 21 532 3662</p>
+                        </div>
+                        <div>
+                            <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:marketing@gramediaprinting.com">marketing@gramediaprinting.com</a></p>
+                        </div>  
+                    </div>  
+                </div>
+                
+                
+                
+                <!-- <div class="col-md-4 text-black my-4 text-center text-md-left ">
+                    <span class=" font-weight-bold ">About the Company</span>
+					            <p class="text-warning my-2" >We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+                    <div class="py-2">
+                        <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="#"><i class="fab fa-google-plus fa-2x text-danger mx-3"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+                        <a href="#"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+                    </div>
+                </div> -->
+            </div>  
+            <div class="text-center" style=" margin-bottom: 0px; ">
+              <p class="text-dark py-4 mb-4 text-center" >&copy;2020 Ekspresa</p>
             </div>
-
-          </div>
-          <!-- Grid column -->
-
         </div>
-
-
-      <!-- Grid row -->
-
-      </div>
-    <!-- Footer Text -->
-
-    <!-- Copyright -->
-
-
-    </div>
-    <div class="footer-div text-center">© 2020 Copyright:
-        <a href="/">Ekspresa</a>
-    </div>
-
-  </footer>
+     </footer>
+     <!-- end of footer -->
   <!-- Footer -->
 
     
