@@ -6,6 +6,15 @@
 <link href="/css/main.css" rel="stylesheet">
 
 <div class="imagehome" id="imagehome">
+    <img id="image" src="{{asset('storage/image/headlineaboutus.jpg')}} " style="min-height: 150px; object-fit:cover; object-position: left ;">      
+    <div class="text-block-transparent">
+        <h1> About Us </h1>
+        
+    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p> -->
+        </div>
+</div>
+
+<div class="imagehome" id="imagehome">
   <img id="image" src="{{asset('storage/image/headline1.jpg')}}">      
   <div class="text-block">
     <h4>Print</h4>
