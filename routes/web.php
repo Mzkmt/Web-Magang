@@ -26,3 +26,7 @@ Route::get('/product', function () {
 Route::get('/howtobuy', function () {
     return view('howtobuy');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});

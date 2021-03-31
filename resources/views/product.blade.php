@@ -8,14 +8,14 @@
 <div class="imagehome" id="imagehome">
     <img id="image" src="{{asset('storage/image/headlineproduct.jpg')}} " style="min-height: 150px; object-fit:cover; object-position: left ;">      
     <div class="text-block-transparent">
-        <h1> Product </h1>
+        <h1 style="margin: 0px;"> Product </h1>
         
     <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p> -->
         </div>
 </div>
 <div class="container">
     <div class="row" style="margin-top: 40px; margin-bottom:40px; ">
-        <div class="col-md-12 col-sm-12" style="text-align:center;" href="{{ url('/aboutus') }}">
+        <div class="col-md-12 col-sm-12" style="text-align:center;" >
             <h2 style="margin:10px; text-align: center;"> Buku </h2>
         </div>
     </div>
